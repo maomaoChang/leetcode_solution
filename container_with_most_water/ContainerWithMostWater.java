@@ -12,7 +12,9 @@ Note: You may not slant the container and n is at least 2.
 
 public class ContainerWithMostWater{
 	public static void main(String[] args) {
-		
+		int[] arr = {1,7,2,5,9};
+
+		System.out.println("最大区域面积为: " + maxArea(arr));
 	}
 
 
